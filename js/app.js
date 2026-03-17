@@ -323,7 +323,7 @@ function renderAboutPage() {
             <span class="section-kicker">Core values</span>
             <h2 class="section-title">How Orda Games wants to build</h2>
           </div>
-          <p class="section-text">This section is ideal for defining tone, production philosophy, player promise, and the public-facing studio identity behind every project.</p>
+          <p class="section-text">These values shape how we design, build, and deliver our games.</p>
         </div>
         <div class="games-grid">
           ${state.data.values.map((value) => `
@@ -346,7 +346,7 @@ function renderAboutPage() {
             <span class="section-kicker">Workflow</span>
             <h2 class="section-title">From concept to community</h2>
           </div>
-          <p class="section-text">Use this area to explain your development process to players, collaborators, or publishers.</p>
+          <p class="section-text">Our approach to building games, from early concept to final release.</p>
         </div>
         <div class="timeline">
           ${state.data.workflow.map((item) => `
@@ -577,12 +577,12 @@ function renderHistoryPage() {
         <div class="glass-card page-hero-card reveal">
           <span class="section-kicker">Studio history</span>
           <h1 class="page-hero-title">The story and direction of Orda Games</h1>
-          <p class="page-hero-text">Use this page to show where the studio started, what ideas shaped it, and what long-term future it is building toward.</p>
+          <p class="page-hero-text">The journey behind Orda Games and the direction we are building toward.</p>
         </div>
         <div class="page-hero-side">
           <article class="glass-card page-hero-card reveal">
             <h2 class="card-title">Why this page matters</h2>
-            <p class="card-text">History builds trust. Players, publishers, and collaborators want to understand the vision behind the brand.</p>
+            <p class="card-text">Every studio starts with a vision. This is how ours began.</p>
           </article>
         </div>
       </div>
@@ -616,7 +616,7 @@ function renderStaffPage() {
         <div class="glass-card page-hero-card reveal">
           <span class="section-kicker">Team</span>
           <h1 class="page-hero-title">People behind the studio</h1>
-          <p class="page-hero-text">Introduce founders, developers, artists, producers, or collaborators. This page is ideal for credibility and human connection.</p>
+          <p class="page-hero-text">The people shaping the vision and development of Orda Games.</p>
         </div>
         <div class="page-hero-side">
           <article class="glass-card metric reveal">
@@ -666,7 +666,7 @@ function renderContactPage() {
         <div class="glass-card page-hero-card reveal">
           <span class="section-kicker">Contact</span>
           <h1 class="page-hero-title">Let’s build something with impact</h1>
-          <p class="page-hero-text">Use this page for business inquiries, press, collaborations, publishing, freelance work, or community contact.</p>
+          <p class="page-hero-text">For business, press, and collaboration inquiries, get in touch with the studio.</p>
         </div>
         <div class="page-hero-side">
           <article class="glass-card page-hero-card reveal">
