@@ -102,8 +102,8 @@ function renderFooter() {
         </div>
       </div>
       <div class="footer-bottom">
-        <span>© ${new Date().getFullYear()} ${escapeHtml(state.data.studio.name)}. Built as a static GitHub Pages website.</span>
-        <span>Edit content in <strong>data/site-data.json</strong></span>
+        <span>© ${new Date().getFullYear()} ${escapeHtml(state.data.studio.name)}. All rights reserved.</span>
+        <span>Orda Games</span>
       </div>
     </div>
   `;
@@ -177,7 +177,7 @@ function renderHomePage() {
       <section class="hero">
         <div class="container hero-grid">
           <div class="hero-panel reveal">
-            <span class="section-kicker hero-kicker">Studio site • JSON powered • GitHub Pages ready</span>
+            <span class="section-kicker hero-kicker">Independent studio • Story-driven games • Orda Games</span>
             <h1 class="hero-title">${escapeHtml(state.data.studio.heroTitle)}</h1>
             <p class="hero-description">${escapeHtml(state.data.studio.heroSubtitle)}</p>
             <div class="hero-actions">
@@ -257,7 +257,7 @@ function renderHomePage() {
               <span class="section-kicker">Featured portfolio</span>
               <h2 class="section-title">Games built for visibility</h2>
             </div>
-            <p class="section-text">Every card is rendered from JSON and automatically updates the home page and the full Games page.</p>
+            <p class="section-text">Explore current and upcoming projects from Orda Games.</p>
           </div>
           <div class="games-grid">
             ${featuredGames.map(renderGameCard).join("")}
@@ -376,7 +376,7 @@ function renderGamesPage() {
         <div class="glass-card page-hero-card reveal">
           <span class="section-kicker">Portfolio</span>
           <h1 class="page-hero-title">Games, prototypes, and future reveals</h1>
-          <p class="page-hero-text">Search, sort, and filter the Orda Games lineup. Every item here is loaded from the games array inside <strong>data/site-data.json</strong>.</p>
+          <p class="page-hero-text">Search, sort, and filter the Orda Games lineup. Browse all current and upcoming projects from the studio.</strong>.</p>
           <div class="pill-row">
             <span class="badge accent">${state.data.games.length} total projects</span>
             <span class="badge">Dynamic filters</span>
@@ -671,7 +671,7 @@ function renderContactPage() {
         <div class="page-hero-side">
           <article class="glass-card page-hero-card reveal">
             <h2 class="card-title">Static hosting note</h2>
-            <p class="card-text">GitHub Pages does not include a backend mail server. This form uses a mailto workflow so it stays deployable as a pure static site.</p>
+            <p class="card-text">This form will open your default email client with a prepared message to the studio.</p>
           </article>
         </div>
       </div>
