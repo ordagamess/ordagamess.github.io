@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="700" viewBox="0 0 600 700">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#0d1325"/>
+    <stop offset="100%" stop-color="#ffb86b"/>
+  </linearGradient>
+</defs>
+<rect width="600" height="700" fill="url(#bg)"/>
+<circle cx="300" cy="260" r="140" fill="rgba(255,255,255,0.18)"/>
+<circle cx="300" cy="250" r="118" fill="rgba(255,255,255,0.1)"/>
+<text x="300" y="295" text-anchor="middle" fill="white" font-size="130" font-family="Arial, Helvetica, sans-serif" font-weight="700">S</text>
+<rect x="48" y="520" width="504" height="120" rx="24" fill="rgba(10,10,20,0.28)" stroke="rgba(255,255,255,0.22)"/>
+<text x="300" y="575" text-anchor="middle" fill="white" font-size="28" font-family="Arial, Helvetica, sans-serif">Art Director</text>
+<text x="300" y="625" text-anchor="middle" fill="#ffb86b" font-size="18" font-family="Arial, Helvetica, sans-serif" letter-spacing="6">ORDA GAMES</text>
+</svg>
