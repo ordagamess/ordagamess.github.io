@@ -547,7 +547,7 @@ function renderGameDetailPage() {
             <span class="section-kicker">Related projects</span>
             <h2 class="section-title">More from Orda Games</h2>
           </div>
-          <p class="section-text">Use this detail page for screenshots, trailers, feature lists, platform plans, patch notes, or wishlist calls to action.</p>
+          <p class="section-text"></p>
         </div>
         <div class="related-grid">
           ${related.map((item) => `
