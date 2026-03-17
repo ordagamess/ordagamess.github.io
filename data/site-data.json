@@ -1,15 +1,17 @@
 {
   "studio": {
     "name": "Orda Games",
-    "tagline": "Building worlds with style, systems, and strong identity.",
-    "heroTitle": "A bold game studio website for Orda Games.",
-    "heroSubtitle": "Show your games, publish studio news, introduce your team, and manage core content from one clean JSON file.",
-    "description": "Orda Games is a modern game development studio focused on memorable visual identity, sharp gameplay ideas, and scalable production. This site is built to be fast on GitHub Pages, easy to edit, and flexible enough for released games, prototypes, and future reveals.",
+    "tagline": "Crafting immersive worlds through story, choice, and identity.",
+    "heroTitle": "Stories you don’t just play — you live.",
+    "heroSubtitle": "We create story-driven experiences with deep worlds, meaningful choices, and unforgettable characters.",
+    "description": "Orda Games is an independent video game studio founded in 2026 in Redmond, Washington. We are dedicated to creating immersive, story-driven games that place players inside rich worlds filled with compelling characters, emotional narratives, and impactful decisions. Our mission is to craft experiences that stay with players long after the game is over.",
+    
     "logos": {
       "white": "./images/Orda%20Games%20White.png",
       "black": "./images/Orda%20Games%20Black.png"
     },
-    "location": "Online / Global",
+
+    "location": "Redmond, WA, USA",
     "email": "ordagamesofficial@gmail.com",
     "founded": "2026"
   },
@@ -40,263 +42,177 @@
     }
   ],
   "stats": [
-    {
-      "label": "Projects in pipeline",
-      "value": "04"
-    },
-    {
-      "label": "Pages included",
-      "value": "07"
-    },
-    {
-      "label": "Data source",
-      "value": "JSON"
-    },
-    {
-      "label": "Deployment target",
-      "value": "GitHub Pages"
-    }
-  ],
-  "values": [
-    {
-      "title": "Identity First",
-      "text": "A strong studio needs a recognizable tone, visual language, and philosophy across every game and announcement."
-    },
-    {
-      "title": "Systems That Scale",
-      "text": "The website is structured so you can add new games, trailers, news items, staff members, and milestones by editing one JSON file."
-    },
-    {
-      "title": "Fast Shipping",
-      "text": "No backend is required for the main site. It is lightweight, responsive, and designed to run well on GitHub Pages."
-    }
-  ],
-  "workflow": [
-    {
-      "step": "01",
-      "title": "Create the concept",
-      "text": "Design the game idea, audience, fantasy, and release roadmap."
-    },
-    {
-      "step": "02",
-      "title": "Build the playable core",
-      "text": "Prototype movement, combat, loops, and core progression until the game feels good."
-    },
-    {
-      "step": "03",
-      "title": "Ship the presentation",
-      "text": "Publish polished posters, store pages, patch notes, trailers, and dev updates."
-    },
-    {
-      "step": "04",
-      "title": "Grow the community",
-      "text": "Use the site as a living studio hub for news, hiring, and future announcements."
-    }
-  ],
-  "games": [
-    {
-      "slug": "mutate-io",
-      "name": "MUTATE.io",
-      "tagline": "Arena PvP where every mutation changes your playstyle.",
-      "shortDescription": "A fast multiplayer action game built around mutations, build variety, and escalating arena pressure.",
-      "description": "MUTATE.io is a competitive action experience where players evolve through mutations during battle. Every choice changes movement, offense, defense, and survivability, creating high replay value and strong spectator moments.",
-      "poster": "./images/mutate-io-poster.svg",
-      "status": "In Development",
-      "releaseDate": "2026-11-14",
-      "genre": "PvP Action",
-      "platforms": [
-        "PC",
-        "Web"
-      ],
-      "engine": "Roblox / Cross-platform Prototype",
-      "tags": [
-        "Multiplayer",
-        "Mutations",
-        "Arena",
-        "Progression"
-      ],
-      "featured": true
-    },
-    {
-      "slug": "night-timber",
-      "name": "Night Timber",
-      "tagline": "Collect what you need before the forest finds you.",
-      "shortDescription": "A first-person survival horror concept set in a dark woodland map with roaming danger.",
-      "description": "Night Timber is a suspense-driven horror project where the player explores a forest, gathers logs, and avoids a stalking enemy. It mixes atmosphere, objective pressure, and replayable route decisions.",
-      "poster": "./images/night-timber-poster.svg",
-      "status": "Prototype",
-      "releaseDate": "2026-08-02",
-      "genre": "Horror Survival",
-      "platforms": [
-        "Android",
-        "PC"
-      ],
-      "engine": "Unity",
-      "tags": [
-        "Horror",
-        "Forest",
-        "Mobile",
-        "Singleplayer"
-      ],
-      "featured": true
-    },
-    {
-      "slug": "pierbound",
-      "name": "Pierbound",
-      "tagline": "Catch fish, upgrade gear, and own the shoreline.",
-      "shortDescription": "A cozy progression-driven fishing simulator with upgrade loops, pier claiming, and trading.",
-      "description": "Pierbound turns relaxing fishing into a satisfying progression game. Players occupy fishing spots, react to bites, land rare catches, sell inventory, and expand their setup over time.",
-      "poster": "./images/pierbound-poster.svg",
-      "status": "Coming Soon",
-      "releaseDate": "2027-03-20",
-      "genre": "Simulator",
-      "platforms": [
-        "Roblox",
-        "Mobile"
-      ],
-      "engine": "Roblox Studio",
-      "tags": [
-        "Fishing",
-        "Simulator",
-        "Economy",
-        "Casual"
-      ],
-      "featured": false
-    },
-    {
-      "slug": "project-nomad",
-      "name": "Project Nomad",
-      "tagline": "Tactical choices in a world broken into shifting territories.",
-      "shortDescription": "A strategy-leaning concept with faction pressure, map control, and long-form progression.",
-      "description": "Project Nomad is a future studio concept focused on tactical planning, identity-rich factions, and evolving world states. It is currently in pre-production as Orda Games explores long-form systems design.",
-      "poster": "./images/project-nomad-poster.svg",
-      "status": "Pre-Production",
-      "releaseDate": "2027-10-09",
-      "genre": "Strategy / Roguelike",
-      "platforms": [
-        "PC"
-      ],
-      "engine": "TBD",
-      "tags": [
-        "Strategy",
-        "Worldbuilding",
-        "Roguelike",
-        "Faction Systems"
-      ],
-      "featured": false
-    }
-  ],
-  "news": [
-    {
-      "title": "Website system launch",
-      "date": "2026-03-16",
-      "category": "Studio",
-      "summary": "The new Orda Games studio site is live with dynamic content driven by JSON for games, staff, history, and news."
-    },
-    {
-      "title": "MUTATE.io gameplay pillar update",
-      "date": "2026-03-10",
-      "category": "Development",
-      "summary": "The team refined mutation stacking and made each build path more readable for players and spectators."
-    },
-    {
-      "title": "Night Timber visual pass",
-      "date": "2026-03-05",
-      "category": "Art",
-      "summary": "A new dark forest lighting pass improves atmosphere, silhouette readability, and chase tension."
-    },
-    {
-      "title": "Community channels opening soon",
-      "date": "2026-02-27",
-      "category": "Community",
-      "summary": "Orda Games is preparing community spaces for announcements, devlogs, and early feedback."
-    }
-  ],
-  "milestones": [
-    {
-      "year": "2026",
-      "title": "Studio foundation",
-      "text": "Orda Games launches its public-facing identity and prepares its first batch of announced projects."
-    },
-    {
-      "year": "2026",
-      "title": "Prototype era",
-      "text": "Core prototypes are built for multiplayer action, fishing progression, and horror exploration."
-    },
-    {
-      "year": "2027",
-      "title": "First public rollouts",
-      "text": "Upcoming releases and public tests start shaping the studio roadmap and community expectations."
-    },
-    {
-      "year": "Future",
-      "title": "Expanding the universe",
-      "text": "The long-term plan is to grow Orda Games into a recognizable label with a strong style and diverse portfolio."
-    }
-  ],
-  "staff": [
-    {
-      "name": "Arlan Oraz",
-      "role": "Founder & Creative Director",
-      "image": "./images/staff-1.svg",
-      "bio": "Leads studio direction, product identity, and high-level creative decisions across the Orda Games portfolio.",
-      "specialties": [
-        "Creative Direction",
-        "Studio Vision",
-        "Publishing"
-      ]
-    },
-    {
-      "name": "Mira Kassen",
-      "role": "Lead Gameplay Engineer",
-      "image": "./images/staff-2.svg",
-      "bio": "Builds core systems, gameplay architecture, and the technical foundations needed for fast iteration.",
-      "specialties": [
-        "Gameplay Systems",
-        "Tools",
-        "Optimization"
-      ]
-    },
-    {
-      "name": "Sanzhar Ilyas",
-      "role": "Art Director",
-      "image": "./images/staff-3.svg",
-      "bio": "Shapes the studio\u2019s visual language through posters, UI direction, mood exploration, and brand cohesion.",
-      "specialties": [
-        "Art Direction",
-        "UI",
-        "Branding"
-      ]
-    },
-    {
-      "name": "Lina Ospan",
-      "role": "Community & Publishing",
-      "image": "./images/staff-4.svg",
-      "bio": "Owns communication strategy, public releases, studio updates, and fan-facing channel planning.",
-      "specialties": [
-        "Community",
-        "Announcements",
-        "Marketing"
-      ]
-    }
-  ],
-  "faq": [
-    {
-      "question": "How do I add a new game?",
-      "answer": "Open data/site-data.json and add a new object inside the games array. The Games page, Home page, and detail page will update automatically."
-    },
-    {
-      "question": "Can I replace the demo posters and staff images?",
-      "answer": "Yes. Replace the files inside ./images and update the matching paths in data/site-data.json."
-    },
-    {
-      "question": "Does the contact form really send email?",
-      "answer": "On pure GitHub Pages there is no backend mail server. This version uses a mailto workflow for static hosting. You can switch it to EmailJS, Formspree, or another service later without redesigning the page."
-    }
-  ],
-  "contact": {
-    "email": "ordagamesofficial@gmail.com",
-    "altText": "For business, press, collaborations, and publishing conversations.",
-    "githubPagesUrl": "https://ordagames.github.io"
+  {
+    "label": "Active project",
+    "value": "01"
+  },
+  {
+    "label": "Games released",
+    "value": "00"
+  },
+  {
+    "label": "Studio founded",
+    "value": "2026"
+  },
+  {
+    "label": "Based in",
+    "value": "Redmond, WA"
   }
+],
+  "values": [
+  {
+    "title": "Story Above All",
+    "text": "We create games where narrative leads the experience, shaping every mechanic, world, and character."
+  },
+  {
+    "title": "Meaningful Gameplay",
+    "text": "Gameplay is not separate from the story — it reinforces it. Every system exists to deepen immersion and player impact."
+  },
+  {
+    "title": "Deliberate Craft",
+    "text": "We take the time to build experiences with intention, focusing on depth, cohesion, and lasting impact over rushed releases."
+  }
+],
+"workflow": [
+  {
+    "step": "01",
+    "title": "Define the world",
+    "text": "We shape the setting, themes, and emotional direction before anything else."
+  },
+  {
+    "step": "02",
+    "title": "Align story and gameplay",
+    "text": "We design mechanics that support the narrative and make player actions feel meaningful."
+  },
+  {
+    "step": "03",
+    "title": "Build and refine",
+    "text": "We iterate on the experience, improving pacing, systems, and immersion."
+  },
+  {
+    "step": "04",
+    "title": "Polish with purpose",
+    "text": "We finalize every detail to deliver a cohesive and memorable experience."
+  }
+],
+  "games": [
+  {
+    "slug": "unsworn",
+    "name": "Unsworn",
+    "tagline": "A dark fantasy RPG about loyalty, truth, and the price of peace.",
+    "shortDescription": "A narrative-driven RPG where a fallen knight uncovers a truth that could shatter the kingdom he once served.",
+    "description": "Unsworn is a dark fantasy narrative RPG centered on loyalty, truth, and sacrifice. When Princess Eliria vanishes during a mysterious comet night, royal knight Reynar is accused of her disappearance and hunted by the very kingdom he once swore to protect. As he searches for her, he uncovers an ancient pact between the crown and a force known as the Void — a law that sustains peace by taking away what people love most. Branded a traitor, Reynar must decide whether to preserve a fragile world built on loss… or break the system holding it together.",
+    
+    "poster": "./images/unsworn-poster.png",
+    "status": "In Development",
+    "releaseDate": "2026-09-16",
+    "genre": "Narrative RPG",
+    
+    "platforms": [
+      "PC",
+      "PlayStation 5 (Planned)"
+    ],
+    
+    "engine": "Unity 6",
+    
+    "tags": [
+      "Dark Fantasy",
+      "Story-driven",
+      "Singleplayer",
+      "Third-person",
+      "Choices",
+      "Medieval"
+    ],
+    
+    "featured": true
+  }
+],
+  "news": [
+  {
+    "title": "Unsworn officially revealed",
+    "date": "2026-03-16",
+    "category": "Studio",
+    "summary": "Orda Games announces Unsworn, a dark fantasy narrative RPG focused on loyalty, truth, and the cost of peace."
+  },
+  {
+    "title": "Core narrative direction finalized",
+    "date": "2026-03-10",
+    "category": "Development",
+    "summary": "The main story arc of Unsworn has been established, defining its themes, characters, and key player decisions."
+  },
+  {
+    "title": "Early gameplay systems in progress",
+    "date": "2026-03-04",
+    "category": "Development",
+    "summary": "Initial gameplay systems are now in development, focusing on third-person exploration and narrative-driven interactions."
+  },
+  {
+    "title": "Worldbuilding foundation completed",
+    "date": "2026-02-26",
+    "category": "Writing",
+    "summary": "The core lore of Unsworn, including the kingdom, the Void, and its underlying rules, has been defined."
+  }
+],
+"milestones": [
+  {
+    "year": "2026",
+    "title": "Studio founded",
+    "text": "Orda Games is established in Redmond, Washington, with a focus on narrative-driven game development."
+  },
+  {
+    "year": "2026",
+    "title": "Unsworn announced",
+    "text": "The studio reveals its first project, introducing a dark fantasy world shaped by choice and consequence."
+  },
+  {
+    "year": "2026",
+    "title": "Full production",
+    "text": "Unsworn enters active development, combining narrative design, gameplay systems, and worldbuilding."
+  },
+  {
+    "year": "Future",
+    "title": "First release",
+    "text": "Unsworn is prepared for launch as the studio’s debut title."
+  }
+],
+ "staff": [
+  {
+    "name": "Damir Anvarbek",
+    "role": "Founder & Creative/Technical Lead",
+    "image": "./images/staff-1.png",
+    "bio": "Drives the vision and development of Orda Games, overseeing narrative direction, gameplay systems, and the overall production of Unsworn.",
+    "specialties": [
+      "Creative Direction",
+      "Gameplay Systems",
+      "Development"
+    ]
+  }
+],
+"faq": [
+  {
+    "question": "What is Orda Games?",
+    "answer": "Orda Games is an independent game studio focused on creating story-driven experiences with strong narrative and immersive worlds."
+  },
+  {
+    "question": "What is Unsworn?",
+    "answer": "Unsworn is a dark fantasy narrative RPG centered on loyalty, truth, and the cost of peace."
+  },
+  {
+    "question": "When will Unsworn be released?",
+    "answer": "Unsworn is currently in development and is planned for release in September 2026."
+  },
+  {
+    "question": "Are you open to collaborations or business inquiries?",
+    "answer": "Yes. Orda Games is open to business, press, and collaboration opportunities."
+  },
+  {
+    "question": "How can I contact the studio?",
+    "answer": "You can reach Orda Games via email for all inquiries, including partnerships and press."
+  }
+],
+"contact": {
+  "email": "ordagamesofficial@gmail.com",
+  "altText": "For business, press, and collaboration inquiries.",
+  "githubPagesUrl": "https://ordagamess.github.io"
+}
 }
