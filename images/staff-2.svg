@@ -5,5 +5,7 @@
   <text x="300" y="295" text-anchor="middle" fill="#ffffff" font-size="130" font-family="Arial, Helvetica, sans-serif" font-weight="700">D</text>
   <rect x="48" y="520" width="504" height="120" rx="24" fill="#0a0a0a" stroke="#1a1a1a"/>
   <text x="300" y="575" text-anchor="middle" fill="#ffffff" font-size="28" font-family="Arial, Helvetica, sans-serif">Damir Anvarbek</text>
-  <text x="300" y="625" text-anchor="middle" fill="#9a9a9a" font-size="18" font-family="Arial, Helvetica, sans-serif" letter-spacing="4">Founder &amp; Lead Developer</text>
+  <text x="300" y="625" text-anchor="middle" fill="#9a9a9a" font-size="18" font-family="Arial, Helvetica, sans-serif" letter-spacing="4">
+  Founder &amp; Lead Developer
+</text>
 </svg>
