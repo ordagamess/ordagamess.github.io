@@ -142,7 +142,7 @@ button{cursor:pointer}
 .nav-link{
   padding:11px 14px;
   border-radius:999px;
-  color:#d7e4ff;
+  color:#fff;
   transition:background .22s ease, color .22s ease, transform .22s ease;
 }
 .nav-link:hover,
